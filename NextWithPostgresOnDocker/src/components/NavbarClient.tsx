@@ -22,10 +22,8 @@ type Props = {
 };
 
 export default function MyNavbar({ session }: Props) {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   return (
-    <Navbar isBordered onMenuOpenChange={setIsMenuOpen}>
+    <Navbar isBordered>
       <NavbarContent justify="start">
         <NavbarBrand className="mr-4">
           <Link href="/" className="flex items-center">

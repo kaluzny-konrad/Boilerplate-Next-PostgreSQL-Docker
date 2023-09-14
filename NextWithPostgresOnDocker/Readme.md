@@ -27,4 +27,7 @@
     - oauth client id: <https://console.cloud.google.com/apis/credentials/oauthclient>
     - Web Application
     - Javascript origin: <http://localhost:3000> (for local development)
-    - Redirect URI: <http://localhost:3000/api/auth/callback/google> 6b. Copy secret to .env.local
+    - Redirect URI: <http://localhost:3000/api/auth/callback/google>
+    - Copy secret to .env.local
+1. `npm i axios`
+1. `npm run dev`

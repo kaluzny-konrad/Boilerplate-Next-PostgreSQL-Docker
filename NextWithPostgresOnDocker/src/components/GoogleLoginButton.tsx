@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Button } from "@nextui-org/react";
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
 import { useState } from "react";
 import { signIn } from "next-auth/react";
 import { Icons } from "./icons/Icons";
