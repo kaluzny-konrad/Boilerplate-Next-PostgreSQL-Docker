@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres
+    restart: always
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_HOST_AUTH_METHOD=trust
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - 5432:5432
+
+  # next-app:
+  #   container_name: next-app
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile
+  #     # dockerfile: Dockerfile.dev
+  #   restart: always
+  #   ports:
+  #     - 3000:3000
+
+volumes:
+  db-data:
