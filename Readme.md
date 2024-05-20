@@ -1,5 +1,10 @@
 # Next with Postgres on Docker
 
+PostgreSQL in this project is running on Docker. 
+
+## Examples
+![MainPage](example.png)
+
 ## Tech Stack
 
 1. Framework: Next.js (React, Node, TypeScript, Eslint)

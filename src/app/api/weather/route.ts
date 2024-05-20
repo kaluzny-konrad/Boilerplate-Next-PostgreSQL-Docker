@@ -5,7 +5,7 @@ const options = {
   url: "https://weatherapi-com.p.rapidapi.com/current.json",
   params: { q: "53.1,-0.13" },
   headers: {
-    "X-RapidAPI-Key": "INITKEY",
+    "X-RapidAPI-Key": "get key from rapidapi",
     "X-RapidAPI-Host": "weatherapi-com.p.rapidapi.com",
   },
 };
